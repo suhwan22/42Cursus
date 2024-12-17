@@ -20,26 +20,26 @@
 ## 파일 구조
 ```bash
 libft/
-│── Makefile
-│── ft_atoi.c
-│── ft_bzero.c
-│── ft_calloc.c
-│── ft_isalnum.c
-│── ft_isalpha.c
-│── ft_isascii.c
-│── ft_isdigit.c
-│── ft_isprint.c
-│── ft_itoa.c
-│── ...
-│── ...
-└── libft.h
+├── src/
+│    ├── ft_atoi.c
+│    ├── ft_bzero.c
+│    ├── ft_calloc.c
+│    ├── ft_isalnum.c
+│    ├── ft_isalpha.c
+│    ├── ft_isascii.c
+│    ├── ft_isdigit.c
+│    ├── ft_isprint.c
+│    ├── ft_itoa.c
+│    ├── ...
+│    ├── ...
+│    └── libft.h
+└── Makefile
 ```
-
 
 ## 사용 방법
 
 ### 1. 정적 라이브러리 생성
-`Makefile`을 사용하여 정적 라이브러를 생성합니다.
+`Makefile`을 사용하여 정적 라이브러리를 생성합니다.
 ```bash
 make
 ```
@@ -49,28 +49,45 @@ make
 
 ### 2. 다른 프로젝트에서 사용
 1. 해당 `libft/`를 다른 프로젝트 디렉토리에 복사합니다.
+    ```bash
+    project/
+    │── libft/
+    └── main.c
+    ```
 2. 필요에 따라 소스 파일에 `libft.h`을 추가합니다:
     ```c
-    #include "libft.h"
+    #include <stdio.h>
+    #include "./libft/src/libft.h"
+
+    int main()
+    {
+	    char str[10] = "hello";
+	    printf("str len: %d\n", ft_strlen(str));
+        return 0;
+    }
     ```
-4. 컴파일 시 라이브러를 링크합니다:
+4. 컴파일 시 라이브러리를 링크합니다:
     ```bash
-    gcc main.c -I./libft -L./libft -lft
+    gcc main.c -I./libft -L./libft -lft -o my_program
     ```
     - `-I./libft`: 헤더 파일을 libft/ 디렉토리에서 찾습니다.
-    - `-L./libft`: 라이브러를 libft/ 디렉토리에서 찾습니다.
+    - `-L./libft`: 라이브러리를 libft/ 디렉토리에서 찾습니다.
     - `-lft`: `libft.a` 파일을 링크합니다.
-
+5. 실행 결과:
+   ```bash
+   $ ./my_program
+   str len: 5
+    ```
 
 ## 구현된 함수 목록
 
-### 문자열 조작 함수
+### 문자열 함수
 - `ft_strlen` : 문자열의 길이를 반환합니다.
 - `ft_strcpy` : 문자열을 복사합니다.
 - `ft_strdup` : 문자열을 복제합니다.
 - `ft_strncmp` : 두 문자열을 비교합니다.
 
-### 메모리 관리 함수
+### 메모리 함수
 - `ft_memset` : 메모리를 특정 값으로 초기화합니다.
 - `ft_memcpy` : 메모리 블록을 복사합니다.
 - `ft_memmove` : 결침을 가리는 메모리 블록을 복사합니다.
