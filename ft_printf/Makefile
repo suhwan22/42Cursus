@@ -13,8 +13,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 NAME = libftprintf.a
-SRCS = printf.c \
-	   ft_putnbr_base.c
+SRCS = ./src/printf.c \
+	   ./src/ft_putnbr_base.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
