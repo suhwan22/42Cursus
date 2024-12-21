@@ -62,7 +62,7 @@ make
     │   └── libftprintf.a
     └── main.c
     ```
-2. 필요에 따라 소스 파일에 `libft.h`을 추가합니다:
+2. 필요에 따라 소스 파일에 `ft_printf.h`을 추가합니다:
     ```c
     #include "./ft_printf/src/ft_printf.h"
 
@@ -93,4 +93,4 @@ make
     Decimal: 12345
     Hexadecimal: 1a3f
     ```
-> **전체 과제에 대한 설명은 [ft_printf](https://www.notion.so/ft_printf-2cf91d91732d4fbd8623fffb91873bc8)를 참고하세요.**
+> **전체 과제에 대한 설명은 [ft_printf](https://guiltless-break-8cc.notion.site/ft_printf-2cf91d91732d4fbd8623fffb91873bc8?pvs=4)를 참고하세요.**
