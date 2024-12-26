@@ -14,17 +14,17 @@ NAME 	= so_long
 CC 		= cc
 CFLAGS 	= -Wall -Wextra -Werror
 MLX = ./mlx/libmlx.dylib
-SRCS 	= ./main.c \
-		  ./get_next_line.c \
-		  ./get_next_line_utils.c \
-		  ./ft_strnstr.c \
-		  ./ft_memcmp.c \
-		  ./ft_putnbr_base.c \
-		  ./printf.c \
-		  ./draw.c \
-		  ./valid.c \
-		  ./key_hook.c \
-		  ./move.c
+SRCS 	= ./src/main.c \
+		  ./src/get_next_line.c \
+		  ./src/get_next_line_utils.c \
+		  ./src/ft_strnstr.c \
+		  ./src/ft_memcmp.c \
+		  ./src/ft_putnbr_base.c \
+		  ./src/printf.c \
+		  ./src/draw.c \
+		  ./src/valid.c \
+		  ./src/key_hook.c \
+		  ./src/move.c
 
 OBJS	= $(SRCS:.c=.o)
 
