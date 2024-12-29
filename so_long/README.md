@@ -99,6 +99,7 @@ make
 ```bash
 ./so_long ./map/map1.ber
 ```
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/34d3c128-bde5-4026-9480-bea32b5f6038" />
 
 ### 조작법
 - **`w`**, **`a`**, **`s`**, **`d`** 키를 사용하여 상, 좌, 하, 우로 이동합니다.
