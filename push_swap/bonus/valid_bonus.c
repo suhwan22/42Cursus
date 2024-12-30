@@ -29,5 +29,8 @@ int	check_ans_bonus(t_info *info)
 			return (0);
 		temp = temp->next;
 	}
-	return (1);
+	if (info->b_stack->size == 0)
+		return (1);
+	else
+		return (0);
 }
