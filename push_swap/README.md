@@ -50,7 +50,7 @@
 so_long/
 ├── gnl/
 ├── libf/
-├── checker/              # checker에 대한 소스코드
+├── bonus/                # checker에 대한 소스코드
 ├── src/                  # push_swap에 대한 소스코드
 │   ├── command.c
 │   ├── exec.c
