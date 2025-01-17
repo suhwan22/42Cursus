@@ -1,26 +1,4 @@
 # 42cursus
-
-## 목차
-1. [개요](#개요)
-2. [42cursus의 목표](#42cursus의-목표)
-3. [진행한 과제 목록](#진행한-과제-목록)
-   - [Libft](#libft)
-   - [get_next_line](#get_next_line)
-   - [ft_printf](#ft_printf)
-   - [Born2beroot](#born2beroot)
-   - [MiniTalk](#minitalk)
-   - [so_long](#so_long)
-   - [push_swap](#push_swap)
-   - [minishell](#minishell)
-   - [philosophers](#philosophers)
-   - [net_practice](#net_practice)
-   - [CPP Module](#cpp-module)
-   - [cub3D](#cub3d)
-   - [Inception](#inception)
-   - [ft_irc](#ft_irc)
-   - [ft_transcendence](#ft_transcendence)
-
-## 개요
 **42cursus**는 [42seoul](https://42seoul.kr/seoul42/main/view)에서 제공하는 소프트웨어 엔지니어링 교육 과정으로<br/>
 약 2년 동안 진행하며 다양한 개인/팀 프로젝트를 통해 문제 해결 능력과 협업 능력을 배양하는 것을 목표로 합니다.
 
@@ -31,6 +9,21 @@
 - **시간 관리와 책임감 배양**: 주어진 시간을 적절히 분배하여 프로젝트 계획을 스스로의 관리합니다.
 
 ## 진행한 과제 목록
+   - [Libft](#libft)
+   - [get_next_line](#get_next_line)
+   - [ft_printf](#ft_printf)
+   - [Born2beroot](#born2beroot)
+   - [MiniTalk](#minitalk)
+   - [so_long](#so_long)
+   - [push_swap](#push_swap)
+   - [minishell](#minishell)
+   - [philosophers](#philosophers)
+   - [NetPractice](#netpractice)
+   - [CPP Module](#cpp-module00-09)
+   - [cub3D](#cub3d)
+   - [Inception](#inception)
+   - [ft_irc](#ft_irc)
+   - [ft_transcendence](#ft_transcendence)
 ### Libft
 - **진행 성공 여부**: ✅ 완료
 - **과제 유형**: 개인 과제
